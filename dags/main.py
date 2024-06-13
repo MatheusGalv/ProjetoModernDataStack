@@ -33,5 +33,7 @@ def pipeline():
     t2 = segunda_atividade()
     t3 = terceira_atividade()
 
+    t1 >> t2 >> t3
+
 pipeline()
 
